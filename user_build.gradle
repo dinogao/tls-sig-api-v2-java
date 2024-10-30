@@ -13,7 +13,7 @@ dependencies {
 }
 
 sourceCompatibility = 1.8
-group = "com.github.tencentyun"
+group = "com.github.tencentcloud"
 archivesBaseName = "tls-sig-api-v2"
 tasks.withType(JavaCompile) {
     options.encoding = 'UTF-8'

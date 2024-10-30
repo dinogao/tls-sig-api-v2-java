@@ -1,4 +1,4 @@
-package com.tencentyun;
+package com.tencentcloud;
 
 import java.util.Base64;
 

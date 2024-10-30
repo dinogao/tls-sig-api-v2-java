@@ -15,7 +15,7 @@ dependencies {
 
 sourceCompatibility = 1.8
 version = '2.0'
-group = "com.github.tencentyun"
+group = "com.github.tencentcloud"
 archivesBaseName = "tls-sig-api-v2"
 tasks.withType(JavaCompile) {
     options.encoding = 'UTF-8'
@@ -60,12 +60,12 @@ uploadArchives {
                 packaging 'jar'
                 // optionally artifactId can be defined here
                 description 'tls sig api v2 for java'
-                url 'https://github.com/tencentyun/tls-sig-api-v2-java'
+                url 'https://github.com/tencentcloud/tls-sig-api-v2-java'
 
                 scm {
-                    connection 'scm:git:git://github.com/tencentyun/tls-sig-api-v2-java.git'
-                    developerConnection 'scm:git:ssh://git@github.com:tencentyun/tls-sig-api-v2-java.git'
-                    url 'https://github.com/tencentyun/tls-sig-api-v2-java'
+                    connection 'scm:git:git://github.com/tencentcloud/tls-sig-api-v2-java.git'
+                    developerConnection 'scm:git:ssh://git@github.com:tencentcloud/tls-sig-api-v2-java.git'
+                    url 'https://github.com/tencentcloud/tls-sig-api-v2-java'
                 }
 
                 licenses {
